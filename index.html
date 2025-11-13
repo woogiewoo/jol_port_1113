@@ -271,6 +271,7 @@
             display: flex; 
             flex-direction: column;
             gap: 8px;
+            align-items: flex-start; /* 자식 요소들을 왼쪽으로 정렬 */
         }
 
         .profile-header {
@@ -305,7 +306,9 @@
             color: #A8D5E2;
             letter-spacing: 0.02rem;
             /* 이름에 있던 강조 스타일을 여기로 이동 */
+            line-height: 1.3; /* 줄 높이 조정으로 간격 개선 */
             /* order: -1;  flexbox 순서를 맨 위로 변경 */
+            margin-top: -4px; /* 카테고리와의 간격을 줄이기 위해 추가 */
             order: 2; /* 순서: 2. 제목 */
         }
 
@@ -443,11 +446,11 @@
                 { name: '박성욱', major: 'WEB', image: 'images/박성욱_썸네일_v3.png', portfolioTitle: 'Ghost House Tour', portfolioUrl: 'https://woogiewoo.github.io/11.04_v1/' },
                 { name: '박소현', major: 'GRAPHIC', image: 'images/박소현_썸네일_v2.png', portfolioTitle: 'Sohyeon’s Heart', portfolioUrl: 'https://sohyeon028.github.io/portfolio/' },
                 { name: '박송희', major: 'UI/UX', image: 'images/박송희 썸네일_1_v2.png', portfolioTitle: 'HourTaste', portfolioUrl: 'https://vanitas0126.github.io/portfolio/project/hourtaste' },
-                { name: '박시은', major: 'GRAPHIC', image: 'images/박시은_썸네일.png', portfolioTitle: 'hand in music', portfolioUrl: 'https://mylittleponygrace-cmyk.github.io/web2025_11_13/' },
+                { name: '박시은', major: 'GRAPHIC', image: 'images/박시은_썸네일.png', portfolioTitle: 'Hand In Music', portfolioUrl: 'https://mylittleponygrace-cmyk.github.io/web2025_11_13/' },
                 { name: '서유정', major: 'WEB', image: 'images/서유정_썸네일.png', portfolioTitle: 'ujung project', portfolioUrl: 'https://dennuu.github.io/test_1112/' },
                 { name: '송예준', major: 'GRAPHIC', image: 'images/송예준_썸네일.png', portfolioTitle: 'yejun-portfolio', portfolioUrl: 'https://yejun40.github.io/yejun-portfolio/' },
                 { name: '윤해주', major: 'WEB', image: 'images/윤해주_썸네일.png', portfolioTitle: 'DEEP CODE', portfolioUrl: 'https://yunhaeju.github.io/kakao/' },
-                { name: '이민준', major: 'WEB', image: 'images/이민준_썸네일.png', portfolioTitle: 'Minjun portfolio', portfolioUrl: 'https://dlalswns1234.github.io/popo1234/' },
+                { name: '이민준', major: 'WEB', image: 'images/이민준_썸네일.png', portfolioTitle: 'Minjun portfolio', portfolioUrl: 'https://dlalswns1234.github.io/port1/' },
                 { name: '이상훈', major: 'WEB', image: 'images/이상훈_썸네일.png', portfolioTitle: 'The Designer on the Court', portfolioUrl: 'https://1day1cartoonreview-debug.github.io/firstwansung/' },
                 { name: '장서연', major: 'UI/UX', image: 'images/장서연_썸네일.png', portfolioTitle: 'Think Shape Design', portfolioUrl: 'https://lexo9999.github.io/11.12_portfolio/' },
                 { name: '장영웅', major: 'WEB', image: 'images/장영웅_썸네일.png', portfolioTitle: 'problem-solving', portfolioUrl: 'https://jang-da.github.io/wen.jang/' },
